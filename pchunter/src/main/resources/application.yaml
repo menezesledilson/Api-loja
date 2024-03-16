@@ -1,0 +1,8 @@
+
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      uri:  mongodb+srv://admin:admin@cluster0.xq2yp44.mongodb.net/
+      database: loja
