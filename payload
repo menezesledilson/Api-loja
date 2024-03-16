@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "5d4ce22b-a856-4b29-bab3-6135456d64d2",
+		"name": "Loja Informática",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28626452"
+	},
+	"item": [
+		{
+			"name": "add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"cpu\": {\r\n    \"title\": \"Cpu\",\r\n    \"description\": \"Cpu\",\r\n    \"url\": \"cpu.com\",\r\n    \"value\": 879.0\r\n  },\r\n  \"motherboard\": {\r\n    \"title\": \"Motherboard\",\r\n    \"description\": \"Motherboard\",\r\n    \"url\": \"motherboard.com\",\r\n    \"value\": 765.0\r\n  },\r\n  \"gpus\": [\r\n    {\r\n      \"title\": \"Gpu\",\r\n      \"description\": \"Gpu\",\r\n      \"url\": \"gpu.com\",\r\n      \"value\": 1600.9\r\n    }\r\n  ],\r\n  \"hds\": [\r\n    {\r\n      \"title\": \"Hd\",\r\n      \"description\": \"Hd\",\r\n      \"url\": \"hd.com\",\r\n      \"value\": 300.9\r\n    }\r\n  ],\r\n  \"ssds\": [\r\n    {\r\n      \"title\": \"Ssd\",\r\n      \"description\": \"Ssd\",\r\n      \"url\": \"ssd.com\",\r\n      \"value\": 350.99\r\n    }\r\n  ],\r\n  \"rams\": [\r\n    {\r\n      \"title\": \"Ram\",\r\n      \"description\": \"Ram\",\r\n      \"url\": \"ram.com\",\r\n      \"value\": 250.9\r\n    }\r\n  ],\r\n  \"fans\": [\r\n    {\r\n      \"title\": \"Fan\",\r\n      \"description\": \"Fan\",\r\n      \"url\": \"fan.com\",\r\n      \"value\": 125.99\r\n    }\r\n  ],\r\n  \"powerSupply\": {\r\n    \"title\": \"PSU\",\r\n    \"description\": \"PSU\",\r\n    \"url\": \"psu.com\",\r\n    \"value\": 450.9\r\n  },\r\n  \"cabinet\": {\r\n    \"title\": \"Cabinet\",\r\n    \"description\": \"Cabinett\",\r\n    \"url\": \"cabinet.com\",\r\n    \"value\": 300.9\r\n  },\r\n  \"monitors\": [\r\n    {\r\n      \"title\": \"Monitor\",\r\n      \"description\": \"Monitor\",\r\n      \"url\": \"monitor.com\",\r\n      \"value\": 1800.9\r\n    }\r\n  ],\r\n  \"keyboard\": {\r\n    \"title\": \"Keyboard\",\r\n    \"description\": \"Keyboard\",\r\n    \"url\": \"keyboard.com\",\r\n    \"value\": 800.9\r\n  },\r\n  \"mouse\": {\r\n    \"title\": \"Mouse\",\r\n    \"description\": \"Mouse\",\r\n    \"url\": \"mouse.com\",\r\n    \"value\": 350.9\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/product/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"product",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
